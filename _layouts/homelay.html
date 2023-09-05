@@ -32,6 +32,9 @@ layout: default
 		<span class="sr-only">Next</span>
 		</a>
 	</div>
+	
+	{{ content }}
+</div>
 <ul class="list-unstyled">
     {% for article in site.data.news %}
         <li class="media">
@@ -43,9 +46,6 @@ layout: default
         </li>
     {% endfor %}
 </ul>
-	{{ content }}
-</div>
-
 <div id="newsid" class="col-sm-4 nopadding-right" >
 	{% include tweets.html %}
 </div>
