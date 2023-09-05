@@ -1,4 +1,5 @@
 ---
+title: "News"
 layout: default
 ---
 
@@ -35,6 +36,7 @@ layout: default
 	
 	{{ content }}
 </div>
+<h1>{{page.title}}</h1>
 <ul class="list-unstyled">
     {% for article in site.data.news %}
         <li class="media">
