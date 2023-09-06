@@ -4,7 +4,7 @@ category: staff
 title: Xia Zhou
 image: xia.jpg
 role: Lab Director
-permalink: 'team/xia'
+permalink: 'team/researcher-xia'
 social:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/
